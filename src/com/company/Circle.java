@@ -16,7 +16,7 @@ public class Circle {
         double a = Math.PI * Math.pow(this.radius,2);
         return a;
     }
-    public double Circum()
+    public double circum()
     {
         double c = Math.PI * this.radius * 2;
         return c;
