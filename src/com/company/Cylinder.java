@@ -6,18 +6,17 @@ public class Cylinder {
 
     public Cylinder(double h, double r)
     {
-        Circle c1 = new Circle(r);
+        c1 = new Circle(r);
         height = h;
 
     }
     public double vol()
     {
-        double v = c1.Area()*height;
-        return v;
+        return c1.Area()*height;
     }
     public double sa()
     {
-        double t = c1.Area() * height * 2;
+        double t = c1.Area() * 2;
         double s = c1.circum() * height;
         return s + t;
     }
